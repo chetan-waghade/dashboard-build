@@ -13,7 +13,7 @@ const Campaigns = () => {
             data.then((list) => setFilteredData(list))
         }
         fetchData();
-    }, [filterData])
+    }, [])
 
     const handleMethodSort = () => {
         setFilteredData(
