@@ -1,0 +1,20 @@
+.logout svg{
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    color:rgba(100, 100, 100, 0.5);
+}
+
+.nav a:focus{
+    color:black;
+    font-weight: 500;
+    box-shadow: inset 4px 0 0 0 #FF7958;
+    transition: box-shadow 250ms ease-in-out;
+    -webkit-transition: box-shadow 250ms ease-in-out;
+    -moz-transition: box-shadow 250ms ease-in-out;
+    -ms-transition: box-shadow 250ms ease-in-out;
+    -o-transition: box-shadow 250ms ease-in-out;
+}
+

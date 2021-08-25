@@ -1,0 +1,72 @@
+.adcard{
+    min-width: 200px;
+    height: 125px;
+    background-color: #4D148C;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    transform: translateX(-40px);
+    -webkit-transform: translateX(-40px);
+    -moz-transform: translateX(-40px);
+    -ms-transform: translateX(-40px);
+    -o-transform: translateX(-40px);
+}
+
+
+.adcard p{
+        margin-top: 0.2rem;
+       font-size: 0.7rem;
+}
+
+.ad_card_artwork{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+
+
+.ad_card_artwork span{
+    display: inline-block;
+}
+
+.ad_card_artwork span:first-child{
+    height:100px;
+    width: 100px;
+    position: absolute;
+    z-index: 99;
+    right:-25px;
+    bottom: -20px;
+    transform: translateY(100%);
+    background-color: #FF7A59;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    -o-transform: translateY(100%);
+}
+
+.ad_card_artwork span:last-child{
+    position: absolute;
+    z-index: 0;
+    height: 70px;
+    width: 70px;
+    right: 60px;
+    bottom:-115px;
+    background-color: #FFB09C;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}

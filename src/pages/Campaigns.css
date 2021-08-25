@@ -1,0 +1,11 @@
+.campaign_nav{
+
+}
+
+.campaign_nav_li_active{
+    box-shadow: 0 1.5px 0 0 #FF7958;
+}
+
+.result_page_nos a:focus{
+    background-color: white;
+}

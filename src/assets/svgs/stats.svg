@@ -1,0 +1,13 @@
+<svg width="22" height="23" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.5 18V22.5H0.5V18C0.5 17.1716 1.17157 16.5 2 16.5C2.82843 16.5 3.5 17.1716 3.5 18Z" stroke="#78AF7D"/>
+<path d="M9.5 10V22.5H6.5V10C6.5 9.17157 7.17157 8.5 8 8.5C8.82843 8.5 9.5 9.17157 9.5 10Z" stroke="#78AF7D"/>
+<path d="M21.5 10V22.5H18.5V10C18.5 9.17157 19.1716 8.5 20 8.5C20.8284 8.5 21.5 9.17157 21.5 10Z" stroke="#78AF7D"/>
+<path d="M15.5 14V22.5H12.5V14C12.5 13.1716 13.1716 12.5 14 12.5C14.8284 12.5 15.5 13.1716 15.5 14Z" stroke="#78AF7D"/>
+<circle cx="2" cy="8" r="1.5" stroke="#78AF7D"/>
+<circle cx="14" cy="6" r="1.5" stroke="#78AF7D"/>
+<circle cx="8" cy="2" r="1.5" stroke="#78AF7D"/>
+<circle cx="20" cy="2" r="1.5" stroke="#78AF7D"/>
+<rect x="6.67465" y="3" width="1" height="5.19674" transform="rotate(45 6.67465 3)" fill="#78AF7D"/>
+<rect x="9" y="2.86603" width="1" height="4.62395" transform="rotate(-60 9 2.86603)" fill="#78AF7D"/>
+<rect x="18.1636" y="1.66483" width="1" height="4.47401" transform="rotate(45 18.1636 1.66483)" fill="#78AF7D"/>
+</svg>

@@ -1,0 +1,34 @@
+[
+    {
+        "id": 0,
+        "campaign_name": "Website Promotion - Landing",
+        "status": true,
+        "created_at": "17 Jun 2021",
+        "method": "CSV",
+        "media": "Video"
+    },
+    {
+        "id": 0,
+        "campaign_name": "App Download",
+        "status": false,
+        "created_at": "15 Jun 2021",
+        "method": "URL Override",
+        "media": "Video"
+    },
+    {
+        "id": 0,
+        "campaign_name": "Social Media Promotion",
+        "status": true,
+        "created_at": "14 Jun 2021",
+        "method": "CSV",
+        "media": "Video"
+    },
+    {
+        "id": 0,
+        "campaign_name": "Linkdin Templates",
+        "status": false,
+        "created_at": "13 Jun 2021",
+        "method": "URL Override",
+        "media": "Video"
+    }
+]
