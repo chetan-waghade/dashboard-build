@@ -7,7 +7,7 @@ import Empty from './pages/Empty';
 
 function App() {
   return (
-    <BrowserRouter basename="/root">
+    <BrowserRouter >
       <div className="App flex shadow-xl rounded-3xl">
         <Navigation />
         <section className="flex-auto">

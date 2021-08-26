@@ -2,17 +2,23 @@ import CampaignHeader from '../components/CampaignHeader';
 import './Campaigns.css'
 import { useState, useEffect } from 'react';
 const Campaigns = () => {
-
     const [filterData, setFilteredData] = useState([])
 
     useEffect(() => {
         // Get Data from json file
-        async function fetchData() {
-            const response = await fetch("http://127.0.0.1:5500/src/db/data.json")
-            const data = response.json();
-            data.then((list) => setFilteredData(list))
-        }
-        fetchData();
+        fetch('./data.json', {
+            method: 'GET',
+            headers: {
+                'Content-Type': 'application/json'
+            }
+        }).then(async response => {
+            try {
+                const data = await response.json()
+                setFilteredData(data);
+            } catch (error) {
+                console.error(error)
+            }
+        })
     }, [])
 
     const handleMethodSort = () => {
@@ -137,7 +143,7 @@ const Campaigns = () => {
                 <div className="flex items-center gap-4">
                     <a href="#" className="text-xs text-gray-500 font-semibold"> &lt; Prev</a>
                     <div className="result_page_nos flex gap-2 ">
-                        <a href="#" className=" block py-2 px-3 bg-gray-100 text-xs text-gray-500 font-semibold">
+                        <a href="#" className=" block py-2 px-3 bg-white text-xs text-gray-500 font-semibold">
                             1
                         </a>
                         <a href="#" className=" block py-2 px-3 bg-gray-100 text-xs text-gray-500 font-semibold">
